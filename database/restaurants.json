@@ -1,0 +1,184 @@
+{
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "Bistro 35",
+      "tags": ["burgery", "Kuchnia domowa", "fast-food", "pizza"],
+      "address": "Nieznanowo, ul. Mglista 12",
+      "coords": [50.030201, 20.208466],
+      "phone": "+48 123 456 789",
+      "delivery": true,
+      "openHours": {
+        "monday" : "11:00 - 21:00",
+        "tuesday" : "11:00 - 21:00",
+        "wednesday" : "11:00 - 21:00",
+        "thursday" : "11:00 - 21:00",
+        "friday" : "11:00 - 21:00",
+        "saturday" : "11:00 - 21:00",
+        "sunday" : "11:00 - 21:00"
+      },
+      "ratings": [4, 5, 3],
+      "comments": [
+        {
+          "userName": "Paweł",
+          "rating": 4,
+          "text": "Bardzo dobre jedzenie, szybko podane."
+        },
+        {
+          "userName": "Gaweł",
+          "rating": 5,
+          "text": "Super! Na pewno wrócę. Burger idealnie wysmażony, czas oczekiwania - 10 min. Polecam"
+        },
+        {
+          "userName": "Franek",
+          "rating": 3,
+          "text": "Czas obsługi do poprawy, jedzenie ok."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Tomson Pizza",
+      "tags": ["burger", "home-food", "delivery", "fast-food", "pizza"],
+      "address": "Nieznanowo, ul. Mglista 12",
+      "coords": [50.032282, 20.212714],
+      "phone": "+48 123 456 789",
+      "delivery": false,
+      "openHours": {
+        "monday" : "11:00 - 21:00",
+        "tuesday" : "11:00 - 21:00",
+        "wednesday" : "11:00 - 21:00",
+        "thursday" : "11:00 - 21:00",
+        "friday" : "11:00 - 21:00",
+        "saturday" : "11:00 - 21:00",
+        "sunday" : "11:00 - 21:00"
+      },
+      "ratings": [4, 5, 3],
+      "comments": [
+        {
+          "userName": "Paweł",
+          "rating": 4,
+          "text": "Bardzo dobre jedzenie, szybko podane."
+        },
+        {
+          "userName": "Gaweł",
+          "rating": 5,
+          "text": "Bardzo dobre jedzenie, szybko podane."
+        },
+        {
+          "userName": "Franek",
+          "rating": 3,
+          "text": "Bardzo dobre jedzenie, szybko podane."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Pizzeria Napoli",
+      "tags": ["burger", "home-food", "delivery", "fast-food", "pizza"],
+      "address": "Nieznanowo, ul. Mglista 12",
+      "coords": [50.032367, 20.218509],
+      "phone": "+48 123 456 789",
+      "delivery": true,
+      "openHours": {
+        "monday" : "11:00 - 21:00",
+        "tuesday" : "11:00 - 21:00",
+        "wednesday" : "11:00 - 21:00",
+        "thursday" : "11:00 - 21:00",
+        "friday" : "11:00 - 21:00",
+        "saturday" : "11:00 - 21:00",
+        "sunday" : "11:00 - 21:00"
+      },
+      "ratings": [4, 5, 3],
+      "comments": [
+        {
+          "userName": "Paweł",
+          "rating": 4,
+          "text": "Bardzo dobre jedzenie, szybko podane."
+        },
+        {
+          "userName": "Gaweł",
+          "rating": 5,
+          "text": "Bardzo dobre jedzenie, szybko podane."
+        },
+        {
+          "userName": "Franek",
+          "rating": 3,
+          "text": "Bardzo dobre jedzenie, szybko podane."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Restauracja Italiana",
+      "tags": ["burger", "home-food", "delivery", "fast-food", "pizza"],
+      "address": "Nieznanowo, ul. Mglista 12",
+      "coords": [50.032510, 20.210980],
+      "phone": "+48 123 456 789",
+      "delivery": true,
+      "openHours": {
+        "monday" : "11:00 - 21:00",
+        "tuesday" : "11:00 - 21:00",
+        "wednesday" : "11:00 - 21:00",
+        "thursday" : "11:00 - 21:00",
+        "friday" : "11:00 - 21:00",
+        "saturday" : "11:00 - 21:00",
+        "sunday" : "11:00 - 21:00"
+      },
+      "ratings": [4, 5, 3],
+      "comments": [
+        {
+          "userName": "Paweł",
+          "rating": 4,
+          "text": "Bardzo dobre jedzenie, szybko podane."
+        },
+        {
+          "userName": "Gaweł",
+          "rating": 5,
+          "text": "Bardzo dobre jedzenie, szybko podane."
+        },
+        {
+          "userName": "Franek",
+          "rating": 3,
+          "text": "Bardzo dobre jedzenie, szybko podane."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Hong Mao",
+      "tags": ["burger", "home-food", "delivery", "fast-food", "pizza"],
+      "address": "Nieznanowo, ul. Mglista 12",
+      "coords": [50.039911, 20.214718],
+      "phone": "+48 123 456 789",
+      "delivery": false,
+      "openHours": {
+        "monday" : "11:00 - 21:00",
+        "tuesday" : "11:00 - 21:00",
+        "wednesday" : "11:00 - 21:00",
+        "thursday" : "11:00 - 21:00",
+        "friday" : "11:00 - 21:00",
+        "saturday" : "11:00 - 21:00",
+        "sunday" : "11:00 - 21:00"
+      },
+      "ratings": [4, 5, 3],
+      "comments": [
+        {
+          "userName": "Paweł",
+          "rating": 4,
+          "text": "Bardzo dobre jedzenie, szybko podane."
+        },
+        {
+          "userName": "Gaweł",
+          "rating": 5,
+          "text": "Bardzo dobre jedzenie, szybko podane."
+        },
+        {
+          "userName": "Franek",
+          "rating": 3,
+          "text": "Bardzo dobre jedzenie, szybko podane."
+        }
+      ]
+    }
+  ]
+}
