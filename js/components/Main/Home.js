@@ -5,7 +5,8 @@ import RestaurantsList from './RestaurantsList';
 
 class Home extends Component {
     state = {
-        placesBase: false
+        placesBase: false,
+        filteredBase: false
     }
 
     componentDidMount() {
@@ -20,7 +21,6 @@ class Home extends Component {
             if (!data || data.length === 0){
                 throw new Error("Data is unvalid")
             }
-            console.log(data)
             this.setState({
                 placesBase: data
             })
@@ -32,12 +32,32 @@ class Home extends Component {
         })
     }
 
+    searchDb = (filteredBase) => {
+        this.setState({
+            filteredBase: filteredBase
+        })
+    }
+
+    ratingCalc = (placeRatingsArr) => {
+        const rating = (placeRatingsArr.reduce((sum, curr) => (sum + curr),0)/ placeRatingsArr.length).toFixed(1);
+        if(!isNaN(rating)){
+            return rating
+        }
+        return "Obiekt nie został jeszcze oceniony"
+    }
+
     render() {
         if(this.state.placesBase){
             return(
                 <>
-                <SearchBar placesBase={this.state.placesBase}/>
-                <RestaurantsList placesBase={this.state.placesBase}/>
+                <SearchBar 
+                    placesBase={this.state.placesBase} 
+                    searchDb={this.searchDb}
+                    ratingCalc={this.ratingCalc}/>
+                <RestaurantsList 
+                    placesBase={this.state.placesBase} 
+                    filteredBase={this.state.filteredBase}
+                    ratingCalc={this.ratingCalc}/>
                 </>
             )
         }

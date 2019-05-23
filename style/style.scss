@@ -17,23 +17,37 @@ body{
     text-align: center;
 }
 
+.shuriken{
+    width: 80px;
+    transform: rotate(45deg)
+};
+
 .containerx {
     margin: 10px;
 }
 
 .header-box{
-    background: #F46036;
+    background: rgb(66, 90, 136);
     border-radius: 5px;
     padding: 10px;
     display: flex;
     justify-content: space-around;
     color: white;
+    nav{
+        background: #282B28;
+        border-radius: 50px;
+        padding: 10px;
+        -webkit-box-shadow: 0px 6px 7px 3px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 6px 7px 3px rgba(0,0,0,0.75);
+        box-shadow: 0px 6px 7px 3px rgba(0,0,0,0.75);
+    }
     .logo{
         background: url("/images/logo.png");
         background-size: contain;
         background-repeat: no-repeat;
         background-position: bottom;
-        font-size: 1.3rem;
+        font-size: 1.5rem;
+        width: 25%;
         span{
             margin-top: 5px;
         }
@@ -43,6 +57,7 @@ body{
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
+        margin-bottom: 0;
     }
     li {
         font-size: 1.4rem;
@@ -60,24 +75,40 @@ body{
     background: #83BCA9;
     border-radius: 5px;
     padding: 20px 20px;
+    h2{
+        padding: 20px;
+    }
     .search-box{
-        background: #A24936;
-        color: #282B28;
+        background: rgb(40, 46, 40);
         padding:15px;
         font-size: 1.4rem;
-        border-radius: 5px 5px 0 0;
+        border-radius: 5px;
+        -webkit-box-shadow: 0px 6px 7px 3px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 6px 7px 3px rgba(0,0,0,0.75);
+        box-shadow: 0px 6px 7px 3px rgba(0,0,0,0.75);
         input{
             width: 100%;
-            font-size: 2rem;
+            font-size: 2.5rem;
             color: #282B28;
             text-align: center;
             font-family: 'Shojumaru', cursive, Arial, Helvetica, sans-serif;
         }
+
+    }
+    .new-restaurant{
+        background: #A24936;
+        color: #282B28;
+        padding:15px;
+        font-size: 1.4rem;
+        border-radius: 5px;
+        -webkit-box-shadow: 0px 6px 7px 3px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 6px 7px 3px rgba(0,0,0,0.75);
+        box-shadow: 0px 6px 7px 3px rgba(0,0,0,0.75);
     }
     .restaurant-item{
         border-radius: 5px;
         padding: 10px;
-        width: 80%;
+        width: 90%;
         margin: 0 auto;
         background: #A24936;
         margin-bottom: 20px;
@@ -93,13 +124,47 @@ body{
         .comments-ul *{
             font-size: 1.2rem;
         }
-        .form-group col{
-            display: inline-block;
+        .restaurant-item-update{
+            background: #282B28;
+            border-radius: 5px;
+            padding: 10px;
+            -webkit-box-shadow: 0px 6px 7px 3px rgba(0,0,0,0.75);
+            -moz-box-shadow: 0px 6px 7px 3px rgba(0,0,0,0.75);
+            box-shadow: 0px 6px 7px 3px rgba(0,0,0,0.75);
         }
+        .restaurant-item-add-opinion{
+            background: #282B28;
+            border-radius: 5px;
+            padding: 10px;
+            -webkit-box-shadow: 0px 6px 7px 3px rgba(0,0,0,0.75);
+            -moz-box-shadow: 0px 6px 7px 3px rgba(0,0,0,0.75);
+            box-shadow: 0px 6px 7px 3px rgba(0,0,0,0.75);
+            margin-bottom: 15px;
+        }
+    }
+    .login-box{
+        background: #A24936;
+        color: #282B28;
+        padding:15px;
+        font-size: 1.4rem;
+        border-radius: 5px;
+        width: 80%;
+        margin: 0 auto;
+        -webkit-box-shadow: 0px 6px 7px 3px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 6px 7px 3px rgba(0,0,0,0.75);
+        box-shadow: 0px 6px 7px 3px rgba(0,0,0,0.75);
+    }
+    .about-box{
+        background: #A24936;
+        color: #282B28;
+        padding:15px;
+        font-size: 1.4rem;
+        border-radius: 5px;
+        width: 80%;
+        margin: 0 auto;
+        -webkit-box-shadow: 0px 6px 7px 3px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 6px 7px 3px rgba(0,0,0,0.75);
+        box-shadow: 0px 6px 7px 3px rgba(0,0,0,0.75);
     }
 
 }
-
-// .footer-box{
-//     padding: 30px;
-// }

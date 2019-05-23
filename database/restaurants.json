@@ -3,21 +3,33 @@
     {
       "id": 1,
       "name": "Bistro 35",
-      "tags": ["burgery", "Kuchnia domowa", "fast-food", "pizza"],
+      "tags": [
+        "home-food",
+        "fast-food",
+        "pizza",
+        "burger"
+      ],
       "address": "Nieznanowo, ul. Mglista 12",
-      "coords": [50.030201, 20.208466],
+      "coords": [
+        50.030576614153,
+        20.209094627340193
+      ],
       "phone": "+48 123 456 789",
       "delivery": true,
       "openHours": {
-        "monday" : "11:00 - 21:00",
-        "tuesday" : "11:00 - 21:00",
-        "wednesday" : "11:00 - 21:00",
-        "thursday" : "11:00 - 21:00",
-        "friday" : "11:00 - 21:00",
-        "saturday" : "11:00 - 21:00",
-        "sunday" : "11:00 - 21:00"
+        "monday": "11:00 - 21:00",
+        "tuesday": "11:00 - 21:00",
+        "wednesday": "11:00 - 21:00",
+        "thursday": "11:00 - 21:00",
+        "friday": "11:00 - 21:00",
+        "saturday": "11:00 - 21:00",
+        "sunday": "11:00 - 21:00"
       },
-      "ratings": [4, 5, 3],
+      "ratings": [
+        4,
+        5,
+        3
+      ],
       "comments": [
         {
           "userName": "Paweł",
@@ -33,27 +45,55 @@
           "userName": "Franek",
           "rating": 3,
           "text": "Czas obsługi do poprawy, jedzenie ok."
+        },
+        {
+          "userName": "Robert",
+          "rating": "5",
+          "text": "Super"
+        },
+        {
+          "userName": "Marek",
+          "rating": "2",
+          "text": "Straszna lipa -ZIMNE pIEroGI!!!!!!oneone"
+        },
+        {
+          "userName": "Józek",
+          "rating": "5",
+          "text": "Piękne panie kelnerki, najwyższa ocena!"
         }
       ]
     },
     {
       "id": 2,
       "name": "Tomson Pizza",
-      "tags": ["burger", "home-food", "delivery", "fast-food", "pizza"],
+      "tags": [
+        "burger",
+        "home-food",
+        "delivery",
+        "fast-food",
+        "pizza"
+      ],
       "address": "Nieznanowo, ul. Mglista 12",
-      "coords": [50.032282, 20.212714],
+      "coords": [
+        50.029414954275154,
+        20.2233570053711
+      ],
       "phone": "+48 123 456 789",
       "delivery": false,
       "openHours": {
-        "monday" : "11:00 - 21:00",
-        "tuesday" : "11:00 - 21:00",
-        "wednesday" : "11:00 - 21:00",
-        "thursday" : "11:00 - 21:00",
-        "friday" : "11:00 - 21:00",
-        "saturday" : "11:00 - 21:00",
-        "sunday" : "11:00 - 21:00"
+        "monday": "11:00 - 21:00gsgsffgsdfdf",
+        "tuesday": "11:00 - 21:00",
+        "wednesday": "11:00 - 21:00",
+        "thursday": "11:00 - 21:00",
+        "friday": "11:00 - 21:00",
+        "saturday": "11:00 - 21:00",
+        "sunday": "11:00 - 21:00"
       },
-      "ratings": [4, 5, 3],
+      "ratings": [
+        4,
+        5,
+        1
+      ],
       "comments": [
         {
           "userName": "Paweł",
@@ -67,7 +107,7 @@
         },
         {
           "userName": "Franek",
-          "rating": 3,
+          "rating": 1,
           "text": "Bardzo dobre jedzenie, szybko podane."
         }
       ]
@@ -75,21 +115,34 @@
     {
       "id": 3,
       "name": "Pizzeria Napoli",
-      "tags": ["burger", "home-food", "delivery", "fast-food", "pizza"],
+      "tags": [
+        "burger",
+        "home-food",
+        "delivery",
+        "fast-food",
+        "pizza"
+      ],
       "address": "Nieznanowo, ul. Mglista 12",
-      "coords": [50.032367, 20.218509],
+      "coords": [
+        50.032367,
+        20.218509
+      ],
       "phone": "+48 123 456 789",
       "delivery": true,
       "openHours": {
-        "monday" : "11:00 - 21:00",
-        "tuesday" : "11:00 - 21:00",
-        "wednesday" : "11:00 - 21:00",
-        "thursday" : "11:00 - 21:00",
-        "friday" : "11:00 - 21:00",
-        "saturday" : "11:00 - 21:00",
-        "sunday" : "11:00 - 21:00"
+        "monday": "11:00 - 21:00",
+        "tuesday": "11:00 - 21:00",
+        "wednesday": "11:00 - 21:00",
+        "thursday": "11:00 - 21:00",
+        "friday": "11:00 - 21:00",
+        "saturday": "11:00 - 21:00",
+        "sunday": "11:00 - 21:00"
       },
-      "ratings": [4, 5, 3],
+      "ratings": [
+        4,
+        2,
+        3
+      ],
       "comments": [
         {
           "userName": "Paweł",
@@ -98,7 +151,7 @@
         },
         {
           "userName": "Gaweł",
-          "rating": 5,
+          "rating": 2,
           "text": "Bardzo dobre jedzenie, szybko podane."
         },
         {
@@ -111,21 +164,34 @@
     {
       "id": 4,
       "name": "Restauracja Italiana",
-      "tags": ["burger", "home-food", "delivery", "fast-food", "pizza"],
+      "tags": [
+        "burger",
+        "home-food",
+        "delivery",
+        "fast-food",
+        "pizza"
+      ],
       "address": "Nieznanowo, ul. Mglista 12",
-      "coords": [50.032510, 20.210980],
+      "coords": [
+        50.03251,
+        20.21098
+      ],
       "phone": "+48 123 456 789",
       "delivery": true,
       "openHours": {
-        "monday" : "11:00 - 21:00",
-        "tuesday" : "11:00 - 21:00",
-        "wednesday" : "11:00 - 21:00",
-        "thursday" : "11:00 - 21:00",
-        "friday" : "11:00 - 21:00",
-        "saturday" : "11:00 - 21:00",
-        "sunday" : "11:00 - 21:00"
+        "monday": "11:00 - 21:00",
+        "tuesday": "11:00 - 21:00",
+        "wednesday": "11:00 - 21:00",
+        "thursday": "11:00 - 21:00",
+        "friday": "11:00 - 21:00",
+        "saturday": "11:00 - 21:00",
+        "sunday": "11:00 - 21:00"
       },
-      "ratings": [4, 5, 3],
+      "ratings": [
+        4,
+        5,
+        3
+      ],
       "comments": [
         {
           "userName": "Paweł",
@@ -147,21 +213,34 @@
     {
       "id": 5,
       "name": "Hong Mao",
-      "tags": ["burger", "home-food", "delivery", "fast-food", "pizza"],
+      "tags": [
+        "burger",
+        "home-food",
+        "delivery",
+        "fast-food",
+        "pizza"
+      ],
       "address": "Nieznanowo, ul. Mglista 12",
-      "coords": [50.039911, 20.214718],
+      "coords": [
+        50.039911,
+        20.214718
+      ],
       "phone": "+48 123 456 789",
       "delivery": false,
       "openHours": {
-        "monday" : "11:00 - 21:00",
-        "tuesday" : "11:00 - 21:00",
-        "wednesday" : "11:00 - 21:00",
-        "thursday" : "11:00 - 21:00",
-        "friday" : "11:00 - 21:00",
-        "saturday" : "11:00 - 21:00",
-        "sunday" : "11:00 - 21:00"
+        "monday": "11:00 - 21:00",
+        "tuesday": "11:00 - 21:00",
+        "wednesday": "11:00 - 21:00",
+        "thursday": "11:00 - 21:00",
+        "friday": "11:00 - 21:00",
+        "saturday": "11:00 - 21:00",
+        "sunday": "11:00 - 21:00"
       },
-      "ratings": [4, 5, 3],
+      "ratings": [
+        4,
+        5,
+        3
+      ],
       "comments": [
         {
           "userName": "Paweł",
