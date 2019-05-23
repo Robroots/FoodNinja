@@ -35,6 +35,7 @@ class Restaurant extends Component {
     }
 
     componentDidMount() {
+        console.log(this.props)
         const placeId = this.props.match.params.id;
         fetch("http://localhost:3000/restaurants/" + placeId)
         .then(resp => {

@@ -84,7 +84,6 @@ class NewRestaurant extends Component {
     }
 
     render() {
-        console.log(this.state)
         return (
             <section className="containerx new-restaurant">
                 <Form onSubmit={this.handleSubmitForm}>

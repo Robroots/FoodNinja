@@ -2,19 +2,19 @@
   "restaurants": [
     {
       "id": 1,
-      "name": "Bistro 35",
+      "name": "Bistro 35dafdfsasdfsdf",
       "tags": [
         "home-food",
         "fast-food",
         "pizza",
         "burger"
       ],
-      "address": "Nieznanowo, ul. Mglista 12",
+      "address": "Nieznanowo, ul. Mglista 12fasdfdsa",
       "coords": [
-        50.030576614153,
-        20.209094627340193
+        50.02743980120464,
+        20.218494428832884
       ],
-      "phone": "+48 123 456 789",
+      "phone": "+48 123 456 789sfsdfsd",
       "delivery": true,
       "openHours": {
         "monday": "11:00 - 21:00",
@@ -258,6 +258,29 @@
           "text": "Bardzo dobre jedzenie, szybko podane."
         }
       ]
+    },
+    {
+      "id": 6,
+      "name": "fsdfasdfas",
+      "tags": [],
+      "address": "fasfasdfasdf",
+      "coords": [
+        50.0315076443061,
+        20.213302967853537
+      ],
+      "phone": "",
+      "delivery": false,
+      "openHours": {
+        "monday": "",
+        "tuesday": "",
+        "wednesday": "",
+        "thursday": "",
+        "friday": "",
+        "saturday": "",
+        "sunday": ""
+      },
+      "ratings": [],
+      "comments": []
     }
   ]
 }

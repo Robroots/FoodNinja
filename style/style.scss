@@ -9,6 +9,7 @@
 
 html{
     font-size: 0.8rem;
+    min-width: 500px;
 }
 
 body{
@@ -20,7 +21,7 @@ body{
 .shuriken{
     width: 80px;
     transform: rotate(45deg)
-};
+}
 
 .containerx {
     margin: 10px;
@@ -31,10 +32,12 @@ body{
     border-radius: 5px;
     padding: 10px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     color: white;
     nav{
         background: #282B28;
+        width: 60%;
+        min-width: 273px;
         border-radius: 50px;
         padding: 10px;
         -webkit-box-shadow: 0px 6px 7px 3px rgba(0,0,0,0.75);
@@ -42,31 +45,36 @@ body{
         box-shadow: 0px 6px 7px 3px rgba(0,0,0,0.75);
     }
     .logo{
-        background: url("/images/logo.png");
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: bottom;
-        font-size: 1.5rem;
-        width: 25%;
-        span{
-            margin-top: 5px;
-        }
+        font-size: 8vw;
+        width: 30vw;
+        line-height: 90%;
+        display: flex;
+        flex-direction: row;
+        align-self: center;
+        margin-left: 20px;
+    }
+    .logo-img{
+        width: 8vw;
+        height: 8vw;
+        align-self: center;
+        transform: rotate(35deg) scale(1.3);
     }
     ul{
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
         margin-bottom: 0;
     }
-    li {
-        font-size: 1.4rem;
-        padding-top: 5px
-    }
     .nav-link {
         color: white;
+        font-size: 3.2vw;
     }
-
+    .nav-active{
+        background:rgb(66, 90, 136);
+        border-radius: 15px;
+        box-shadow: 0px 0px 3px 2px rgb(66, 90, 136);
+    }
 }
 
 .main-box{

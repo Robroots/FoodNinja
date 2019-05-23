@@ -1,6 +1,5 @@
 import React, {Component} from "react";
 import {NavLink} from "react-router-dom"
-import Restaurant from "./Restaurant";
 import {Button} from "react-bootstrap"
 
 class RestaurantsList extends Component {
