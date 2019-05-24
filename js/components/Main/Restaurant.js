@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import Map from 'pigeon-maps';
 import Marker from 'pigeon-marker';
-import { Form, Button, Col, ToggleButtonGroup, ToggleButton, ButtonToolbar } from 'react-bootstrap'
+import { Form, Button, Col, ToggleButtonGroup, ToggleButton } from 'react-bootstrap'
 import _ from 'lodash'
 
 class Restaurant extends Component {
@@ -35,7 +35,6 @@ class Restaurant extends Component {
     }
 
     componentDidMount() {
-        console.log(this.props)
         const placeId = this.props.match.params.id;
         fetch("http://localhost:3000/restaurants/" + placeId)
         .then(resp => {
@@ -65,7 +64,7 @@ class Restaurant extends Component {
         let editBtn = e.target;
         this.state.edit? editBtn.innerText = "Do dzieła!" : editBtn.innerText = "Anuluj"
         this.setState({
-            edit: true
+            edit: !this.state.edit
         })
     }
 
@@ -176,6 +175,8 @@ class Restaurant extends Component {
 
     handleSubmitForm = (e) => {
         e.preventDefault();
+        const submitBtn = e.target.parentElement.previousElementSibling.querySelector("button");
+        this.state.edit? submitBtn.innerText = "Do dzieła!" : submitBtn.innerText = "Anuluj"
         this.setState({
             place : this.state.newPlace,
             edit: false
@@ -397,7 +398,7 @@ class Restaurant extends Component {
                                     <Form.Control 
                                         value={inputPlace.openHours.friday} 
                                         onChange={this.handleOpenHoursChange} 
-                                        name="ofriday">
+                                        name="friday">
                                     </Form.Control>
                                 </Form.Group>
                                 <Form.Group as={Col} >

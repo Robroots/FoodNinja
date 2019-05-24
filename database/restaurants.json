@@ -2,19 +2,19 @@
   "restaurants": [
     {
       "id": 1,
-      "name": "Bistro 35dafdfsasdfsdf",
+      "name": "Bistro 35",
       "tags": [
         "home-food",
         "fast-food",
         "pizza",
         "burger"
       ],
-      "address": "Nieznanowo, ul. Mglista 12fasdfdsa",
+      "address": "Nieznanowo, ul. Mglista 12",
       "coords": [
         50.02743980120464,
         20.218494428832884
       ],
-      "phone": "+48 123 456 789sfsdfsd",
+      "phone": "+48 123 456 789",
       "delivery": true,
       "openHours": {
         "monday": "11:00 - 21:00",
@@ -75,8 +75,8 @@
       ],
       "address": "Nieznanowo, ul. Mglista 12",
       "coords": [
-        50.029414954275154,
-        20.2233570053711
+        50.03519710031795,
+        20.21532325502517
       ],
       "phone": "+48 123 456 789",
       "delivery": false,
@@ -281,6 +281,39 @@
       },
       "ratings": [],
       "comments": []
+    },
+    {
+      "id": 7,
+      "name": "PIzzeria K2",
+      "tags": [
+        "italian",
+        "fast-food",
+        "east"
+      ],
+      "address": "fsdsdfgsdfgsdf",
+      "coords": [
+        50.06790451777949,
+        20.317209107690218
+      ],
+      "phone": "66666666",
+      "delivery": true,
+      "openHours": {
+        "monday": "fsdfsd",
+        "tuesday": "fsdfs",
+        "wednesday": "dfsdf",
+        "thursday": "dfsdfsd",
+        "friday": "dfsdf",
+        "saturday": "sdfsdf",
+        "sunday": "dfsdfs"
+      },
+      "ratings": [],
+      "comments": [
+        {
+          "userName": "PAWEŁ",
+          "rating": "5",
+          "text": "ŚWietnie"
+        }
+      ]
     }
   ]
 }
